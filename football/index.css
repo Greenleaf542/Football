@@ -1,0 +1,38 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_class
+{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.main_class h2::before
+{
+    right: 100%;
+}
+.main_class h2::after
+{
+    right: 100%;
+}
+.main_class h2::before
+{
+    content:" ";
+    width:86px;
+    top:10%;
+    left: 50%;
+    position:absolute;
+    border-bottom: 10px soild #000;
+}
+.main_class h2::after
+{
+    content:" ";
+    width:86px;
+    top:10%;
+    left: 50%;
+    position:absolute;
+    border-bottom: 10px soild #000;
+}
